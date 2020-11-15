@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeLabelConfigExercices">30sp</dimen>
+    <dimen name="topMarginLabelConfigExercices">7dp</dimen>
+    <dimen name="textSizeLabelExercices">20sp</dimen>
+    <dimen name="textSizeExercices">26sp</dimen>
+</resources>

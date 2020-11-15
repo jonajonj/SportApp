@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciceActivity">
+
+
+    <TextView
+        android:id="@+id/exerciceLabelNoSerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:text="Serie N° : "
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exerciceNoSerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:text="1"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/exerciceLabelNoSerie"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/exerciceLabelNoExercice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:text="Exercice N° : "
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/exerciceNoSerie"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exerciceNoExercice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:text="1"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/exerciceLabelNoExercice"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exerciceLabelTypeExercice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:text="Type exercice : "
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/textSizeLabelExercices"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/exerciceLabelNoExercice" />
+
+    <TextView
+        android:id="@+id/exerciceTypeExercice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textSize="@dimen/textSizeExercices"
+        app:layout_constraintTop_toBottomOf="@id/exerciceLabelTypeExercice" />
+
+    <TextView
+        android:id="@+id/exerciceLabelDecriptionExercice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decription de l'exercice :"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/textSizeLabelExercices"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/exerciceTypeExercice" />
+
+    <TextView
+        android:id="@+id/exerciceDecriptionExercice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decription"
+        android:textSize="@dimen/textSizeExercices"
+        app:layout_constraintTop_toBottomOf="@id/exerciceLabelDecriptionExercice" />
+
+    <Button
+        android:id="@+id/exerciceNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/exerciceStop" />
+
+    <Button
+        android:id="@+id/exerciceStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    <fragment
+        android:id="@+id/exerciceChronometer"
+        android:name="com.example.choupisport.ChronometerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/exerciceNext"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_type_prompt">Choose an Exercice type</string>
+
+    <string-array name="activity_type__arrays">
+        <item>Abdo</item>
+        <item>Bras</item>
+        <item>Jambes</item>
+    </string-array>
+
+</resources>
+
+

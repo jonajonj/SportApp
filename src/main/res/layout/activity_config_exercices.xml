@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigExercicesActivity">
+
+
+    <TextView
+        android:id="@+id/noExercice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        android:text="Exercice 1 :"
+        android:textSize="@dimen/textSizeLabelConfigExercices"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice1"
+        app:layout_constraintTop_toTopOf="@+id/noExercice1"/>
+
+
+
+    <TextView
+        android:id="@+id/noExercice2"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice1"
+        app:layout_constraintTop_toBottomOf="@id/noExercice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 2 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice2"
+        app:layout_constraintTop_toTopOf="@+id/noExercice2"/>
+
+    <TextView
+        android:id="@+id/noExercice3"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice2"
+        app:layout_constraintTop_toBottomOf="@id/noExercice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 3 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice3"
+        app:layout_constraintTop_toTopOf="@+id/noExercice3"/>
+
+    <TextView
+        android:id="@+id/noExercice4"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice3"
+        app:layout_constraintTop_toBottomOf="@id/noExercice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 4 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice4"
+        app:layout_constraintTop_toTopOf="@+id/noExercice4"/>
+
+
+    <TextView
+        android:id="@+id/noExercice5"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice4"
+        app:layout_constraintTop_toBottomOf="@id/noExercice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 5 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice5"
+        app:layout_constraintTop_toTopOf="@+id/noExercice5"/>
+
+
+    <TextView
+        android:id="@+id/noExercice6"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice5"
+        app:layout_constraintTop_toBottomOf="@id/noExercice5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 6 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice6"
+        app:layout_constraintTop_toTopOf="@+id/noExercice6"/>
+
+
+    <TextView
+        android:id="@+id/noExercice7"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice6"
+        app:layout_constraintTop_toBottomOf="@id/noExercice6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 7 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice7"
+        app:layout_constraintTop_toTopOf="@+id/noExercice7"/>
+
+
+    <TextView
+        android:id="@+id/noExercice8"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice7"
+        app:layout_constraintTop_toBottomOf="@id/noExercice7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 8 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice8"
+        app:layout_constraintTop_toTopOf="@+id/noExercice8"/>
+
+    <TextView
+        android:id="@+id/noExercice9"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice8"
+        app:layout_constraintTop_toBottomOf="@id/noExercice8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 9 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice9"
+        app:layout_constraintTop_toTopOf="@+id/noExercice9"/>
+
+    <TextView
+        android:id="@+id/noExercice10"
+        app:layout_constraintLeft_toLeftOf="@id/noExercice9"
+        app:layout_constraintTop_toBottomOf="@id/noExercice9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice 10 :"
+        android:layout_marginTop="@dimen/topMarginLabelConfigExercices"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:textSize="@dimen/textSizeLabelConfigExercices"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerTypeExercice10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/activity_type_prompt"
+        app:layout_constraintBottom_toBottomOf="@+id/noExercice10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noExercice10"
+        app:layout_constraintTop_toTopOf="@+id/noExercice10"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Demarrer"
+        android:onClick="onClickStartExercice"
+        android:id="@+id/StartExercice"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
